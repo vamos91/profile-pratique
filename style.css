@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url('avengers.jpg');
+    background-size: cover;
+    background-position: center; */
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+h1{
+    color: #BA2164;
+    width: 50%;
+}
+
+p{
+    text-align: justify;
+    padding: 0px; 
+    background-color: gray;
+}
+
+.social {
+    font-size: 48px;
+}
+
+h2{
+    color: red; 
+    font-weight: 100;
+}
+ .image1{
+     opacity: 0.4;
+ }
+
+ .bouton{
+    background-color: gray;
+    border-radius: 16px;
+    padding: 10px;
+    color: white;
+    border: 1px solid gray;
+    transition: 0.4s; 
+    margin: 12px;
+ }
+
+.bouton:hover{
+    box-shadow: 0px 10px 30px #000000;
+    transition: 0.4s; 
+    background-color: white;
+    color: gray; 
+}
+
+.b-radius{
+    border-radius: 16px;
+}
+
+.shaddow{
+    box-shadow: 4px 4px 2px black;
+}
